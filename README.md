@@ -162,6 +162,6 @@ This project is licensed under the **MIT License**.
 ## Contact
 
 For queries, feedback, or collaboration opportunities, please contact:
-**[sahilchalke0001@gmail.com](mailto:kalepranav2608@gmail.com)**
+**[kalepranav2608@gmail.com](mailto:kalepranav2608@gmail.com)**
 
 ---
