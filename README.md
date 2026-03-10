@@ -273,10 +273,10 @@ For queries, feedback, or collaboration opportunities:
 📧 **Email:** [kalepranav2608@gmail.com](mailto:kalepranav2608@gmail.com)
 
 💼 **LinkedIn:**
-(Add your LinkedIn profile link here)
+https://www.linkedin.com/in/pranav-kale-809501340/
 
 🌐 **AI Portfolio Website:**
-(Add your AI portfolio website link here)
+comming soon
 
 ---
 
