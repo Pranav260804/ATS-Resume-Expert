@@ -251,8 +251,36 @@ resume/
 
 ---
 
+## 🌐 AI Platform (In Development)
+
+We are currently building an **AI-focused platform and portfolio hub** that showcases advanced projects in **Artificial Intelligence, Machine Learning, and Generative AI systems**.
+
+This platform will include:
+
+* AI project demonstrations
+* Interactive system architectures
+* Research-based implementations
+* Developer portfolio integration
+
+The ATS Resume Tracker will be integrated as one of the **core AI applications** within this platform.
+
+---
+
+## 📬 Contact
+
+For queries, feedback, or collaboration opportunities:
+
+📧 **Email:** [kalepranav2608@gmail.com](mailto:kalepranav2608@gmail.com)
+
+💼 **LinkedIn:**
+(Add your LinkedIn profile link here)
+
+🌐 **AI Portfolio Website:**
+(Add your AI portfolio website link here)
+
+---
+
 ## ⭐ Support the Project
 
 If you found this project useful, please consider giving it a **star on GitHub**.
 It helps the project gain visibility and motivates further development.
-
