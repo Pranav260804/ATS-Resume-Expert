@@ -165,3 +165,94 @@ For queries, feedback, or collaboration opportunities, please contact:
 **[kalepranav2608@gmail.com](mailto:kalepranav2608@gmail.com)**
 
 ---
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Flask](https://img.shields.io/badge/Framework-Flask-green)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB%20Atlas-brightgreen)
+![Gemini AI](https://img.shields.io/badge/LLM-Google%20Gemini-orange)
+![LangChain](https://img.shields.io/badge/Orchestration-LangChain-yellow)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+**AI-powered ATS Resume Analyzer using Retrieval-Augmented Generation (RAG), Gemini API, and MongoDB Vector Search.**
+
+---
+
+## System Architecture
+
+The ATS Resume Tracker follows a **Retrieval-Augmented Generation (RAG)** architecture:
+
+1. User uploads a resume and provides a job description.
+2. The resume is parsed and converted into structured text.
+3. Text is embedded using **Google Generative AI embeddings**.
+4. Embeddings are stored in **MongoDB Atlas Vector Search**.
+5. LangChain retrieves relevant chunks from the vector database.
+6. Gemini API performs semantic comparison with the job description.
+7. The system generates:
+
+   * Match percentage
+   * Strengths & weaknesses
+   * Recommendations
+8. The result is displayed in the UI, converted to speech, and optionally emailed or downloaded.
+
+---
+
+## Project Structure
+
+```
+resume/
+│
+├── app.py                    # Main Flask application
+├── requirements.txt          # Python dependencies
+├── .env                      # Environment variables
+│
+├── templates/                # HTML templates
+│   ├── login.html
+│   ├── register.html
+│   ├── upload.html
+│   └── result.html
+│
+├── static/                   # CSS, JS, images
+│
+├── utils/                    # Helper modules
+│   ├── resume_parser.py
+│   ├── rag_engine.py
+│   ├── email_service.py
+│   └── youtube_recommender.py
+│
+└── README.md
+```
+
+---
+
+## Example Output
+
+**Match Score:** 82%
+
+**Strengths:**
+
+* Strong Python and Machine Learning background
+* Experience with REST APIs and cloud services
+* Demonstrated project work in AI/ML
+
+**Weaknesses:**
+
+* Limited experience with large-scale production systems
+* Missing some required DevOps skills such as Docker/Kubernetes
+
+---
+
+## Future Improvements
+
+* Multi-resume batch analysis
+* Integration with LinkedIn job postings
+* Real-time ATS scoring dashboard
+* Resume rewriting suggestions using LLMs
+* Support for DOCX and TXT resume formats
+* Candidate skill-gap learning roadmap
+
+---
+
+## ⭐ Support the Project
+
+If you found this project useful, please consider giving it a **star on GitHub**.
+It helps the project gain visibility and motivates further development.
+
